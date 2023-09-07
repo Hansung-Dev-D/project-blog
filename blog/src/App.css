@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.custom-navbar {
+  background-color: #e3f2fd;
+}
+
+.wrap {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 170px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
