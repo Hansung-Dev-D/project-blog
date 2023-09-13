@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "programming_language": "Python",
+      "title": "Python에서 리스트를 어떻게 정렬하나요?",
+      "author": "dasol",
+      "date": "2023-09-01",
+      "answers_count": 3,
+      "likes": 5,
+      "views": 123
+    },
+    {
+      "id": 2,
+      "programming_language": "JavaScript",
+      "title": "JavaScript에서 비동기 처리 방법?",
+      "author": "koul",
+      "date": "2023-09-05",
+      "answers_count": 2,
+      "likes": 8,
+      "views": 89
+    },
+    {
+      "id": 3,
+      "programming_language": "Java",
+      "title": "Java에서 스레드는 어떻게 생성하나요?",
+      "author": "young",
+      "date": "2023-09-07",
+      "answers_count": 0,
+      "likes": 2,
+      "views": 47
+    },
+    {
+      "id": 4,
+      "programming_language": "C++",
+      "title": "C++에서 메모리 누수는 어떻게 방지하나요?",
+      "author": "seop",
+      "date": "2023-09-10",
+      "answers_count": 4,
+      "likes": 6,
+      "views": 203
+    }
+  ]
+}
