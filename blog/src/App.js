@@ -72,10 +72,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/question" element={<Question />} />
+          {/*원하는 페이지 클릭시 해당 페이지만 렌더링, 이외에는 메인페이지로 */}
+          <Route path="/" element={<Main />} />
         </Routes>
-        <div>
-          <Main />
-        </div>
         <Footers/>
       </div>
       </Router>

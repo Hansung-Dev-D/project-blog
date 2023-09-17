@@ -7,6 +7,7 @@ import main from '../images/main.png';
 
 
 function Main() {
+    // 더 알아보기 버튼 누르면 content-section으로 이동
     const scrollToContent = () => {
         const contentElement = document.getElementById("content-section");
         contentElement.scrollIntoView({ behavior: "smooth" });
