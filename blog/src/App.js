@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Login from './pages/Login.js';
 import Footers from './components/Footers';
 import Signup from './pages/Signup';
+import Main from './pages/Main';
 import axios from "axios";
 
 function App() {
@@ -50,6 +51,8 @@ function App() {
                 </button>
               </form>
 
+
+
               <Nav>
                 <Nav.Link href="/notifications">
                   <FaBell />
@@ -60,12 +63,16 @@ function App() {
               </Nav>
             </div>
           </div>
+
         </nav>
 
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
+        <div>
+          <Main />
+        </div>
         <Footers/>
       </div>
       </Router>
