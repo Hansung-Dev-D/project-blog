@@ -9,6 +9,8 @@ import Login from './pages/Login.js';
 import Footers from './components/Footers';
 import Signup from './pages/Signup';
 import Main from './pages/Main';
+import Question from './pages/Question';
+
 import axios from "axios";
 
 function App() {
@@ -29,7 +31,7 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">질문하기</a>
+                  <a className="nav-link active" aria-current="page" href="/question">질문하기</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">프로젝트</a>
@@ -69,6 +71,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/question" element={<Question />} />
         </Routes>
         <div>
           <Main />

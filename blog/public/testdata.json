@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "programming_language": "JAVA",
+      "title": "JAVA 문법 질문 있습니다.",
+      "author": "dasol",
+      "date": "2023-09-01",
+      "answers_count": 3,
+      "likes": 5,
+      "views": 123
+    },
+    {
+      "id": 2,
+      "programming_language": "PYTHON",
+      "title": "파이썬으로 코딩테스트 하시는 분?",
+      "author": "koul",
+      "date": "2023-09-05",
+      "answers_count": 2,
+      "likes": 8,
+      "views": 89
+    },
+    {
+      "id": 3,
+      "programming_language": "AWS",
+      "title": "AWS 인스턴스 생성 시 키페어 설정 관련 궁금증",
+      "author": "young",
+      "date": "2023-09-07",
+      "answers_count": 0,
+      "likes": 2,
+      "views": 47
+    },
+    {
+      "id": 4,
+      "programming_language": "REACT",
+      "title": "리액트 훅에 대해서 질문 있어요!",
+      "author": "seop",
+      "date": "2023-09-10",
+      "answers_count": 4,
+      "likes": 6,
+      "views": 203
+    }
+  ]
+}
