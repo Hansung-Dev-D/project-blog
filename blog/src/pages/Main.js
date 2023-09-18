@@ -24,11 +24,21 @@ function Main() {
             </div>
 
             {/* Content Section */}
-            <dv className="content-section" id="content-section">
-                <h2>서비스 소개</h2>
-                <p>서비스의 기본 설명을 추가</p>
+            <div className="content-box" id="content-section">
+                <h2>코드 부기스는?</h2>
+                <p className="content-detail">코딩과 관련된 모든 질문을 할 수 있는 공간입니다</p>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
                 {/*<img src={content1} alt="content1" className="content1-image"/>*/}
-            </dv>
+            </div>
         </div>
     );
 }

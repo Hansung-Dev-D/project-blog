@@ -112,4 +112,18 @@
   text-align: center;
 }
 
+/* 메인페이지 content-section */
+.content-box {
+  background-color: #fff;  /* 백그라운드 색상은 원하는 색으로 변경 가능 */
+  width: 70%;  /* 원하는 너비로 조절 */
+  max-width: 600px;  /* 박스의 최대 너비를 제한 */
+  padding: 20px;  /* 안쪽 패딩 값은 원하는대로 조정 가능 */
+  border-radius: 10px;  /* 모서리를 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);  /* 그림자 효과 추가 */
+  margin: 20px auto;  /* 상하로 여백 추가  */
+}
+
+.content-detail {
+  padding: 20px;
+}
 

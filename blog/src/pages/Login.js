@@ -146,7 +146,7 @@ function Login() {
 
 
     return (
-        <div style={styles.container}>
+        <div>
             <div className="login wrap" >
                 <h1 style={{ marginBottom: '40px', fontSize: '35px' }}>LOGIN</h1>
                 <Form onSubmit={handleSubmit}>
