@@ -33,18 +33,6 @@ function App() {
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/question">질문하기</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">프로젝트</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">스터디</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">코딩테스트</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">공부하기</a>
-                </li>
               </ul>
               <form className="d-flex" role="search">
                 <input className="form-control me-2" type="search" placeholder="검색" aria-label="Search" />

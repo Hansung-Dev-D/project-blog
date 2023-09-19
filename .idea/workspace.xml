@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967743a2-6813-4ec0-bd96-ad742249566a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/public/testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/pages/Question.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/pages/Question.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/pages/Question.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +40,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/s1u9w/Desktop/hascstudy/react스터디/블로그/project-blog",
+    "last_opened_file_path": "C:/Users/s1u9w/Desktop/school/2023Y/2023_1/capstonedesign/new project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,7 +69,10 @@
       <workItem from="1694062474682" duration="440000" />
       <workItem from="1694079700961" duration="2604000" />
       <workItem from="1694491178671" duration="490000" />
-      <workItem from="1694597423777" duration="15155000" />
+      <workItem from="1694597423777" duration="15703000" />
+      <workItem from="1694649302413" duration="100000" />
+      <workItem from="1694653440320" duration="241000" />
+      <workItem from="1694685184691" duration="1209000" />
     </task>
     <servers />
   </component>

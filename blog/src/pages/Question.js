@@ -139,9 +139,9 @@ const Question = () => {
 
                             {/* 세 번째 열: 답변, 좋아요, 조회수 */}
                             <td style={{ padding: '10px', textAlign: 'right' }}>
-                                <span>{item.answers} 답변 </span>
-                                <span>{item.likes} 좋아요 </span>
-                                <span>{item.views} 조회수</span>
+                                <span> 답변 {item.answers_count}</span>
+                                <span> 좋아요 {item.likes}</span>
+                                <span> 조회수 {item.views}</span>
                             </td>
                         </tr>
                     ))}
