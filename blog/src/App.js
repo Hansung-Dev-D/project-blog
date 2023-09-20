@@ -23,34 +23,37 @@ function App() {
               <img src={heartboogie} alt="한성대학교 상상부기" style={{ marginRight: '10px', height: '30px', width: '30px' }} />  {/* 이미지를 참조합니다. */}
               코드부기스
             </Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
+            {/*<button className="navbar-toggler" type="button" data-bs-toggle="collapse"*/}
+            {/*        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"*/}
+            {/*        aria-label="Toggle navigation">*/}
+            {/*  <span className="navbar-toggler-icon"></span>*/}
+            {/*</button>*/}
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/question">질문하기</a>
                 </li>
               </ul>
-              <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search" placeholder="검색" aria-label="Search" />
-                <button className="btn btn-outline-success" type="submit">
-                  <FaSearch />
-                </button>
-              </form>
+              {/*<form className="d-flex" role="search">*/}
+              {/*  <input className="form-control me-2" type="search" placeholder="검색" aria-label="Search" />*/}
+              {/*  <button className="btn btn-outline-success" type="submit">*/}
+              {/*    <FaSearch />*/}
+              {/*  </button>*/}
+              {/*</form>*/}
 
 
 
-              <Nav>
-                <Nav.Link href="/notifications">
-                  <FaBell />
+              {/*<Nav>*/}
+              {/*  <Nav.Link href="/notifications">*/}
+              {/*    <FaBell />*/}
+              {/*  </Nav.Link>*/}
+                <Nav.Link href="/login"
+                          style={{ display: 'flex', alignItems: 'center' }}>
+                  <FaUserCircle size={40} style={{ marginRight: '20px' }}
+                >
+                  </FaUserCircle >
                 </Nav.Link>
-                <Nav.Link href="/login">
-                  <FaUserCircle />
-                </Nav.Link>
-              </Nav>
+              {/*</Nav>*/}
             </div>
           </div>
 

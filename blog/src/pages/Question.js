@@ -89,6 +89,15 @@ const Question = () => {
         display: 'inline' // inline 형태로 표시
     };
 
+    const handleKeyUp = (e) => {
+        // 엔터 키의 keyCode는 13입니다.
+        if (e.keyCode === 13) {
+            const filtered = data.filter(item => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
+            setFilteredData(filtered);
+        }
+    };
+
+
 
     return (
         // <div style={{ display: 'flex',
@@ -108,12 +117,16 @@ const Question = () => {
                 <button style={buttonStyle} onClick={() => handleSort('views')}>조회순</button>
             </div>
 
-            <div style={{ width: '70%', backgroundColor: '#F5F5F5', justifyContent: 'center' }}> {/* 배경색을 옅은 파란색으로 설정 */}
+            <div style={{ width: '70%', backgroundColor: '#F5F5F5', justifyContent: 'center', minHeight: '420px' }}> {/* 배경색을 옅은 파란색으로 설정 */}
                 {/* 이 부분에서 display와 justifyContent 속성을 사용해 내용을 중앙에 위치시킵니다. */}
             {/* 검색창 */}
             <div style={searchBoxStyle}>
                 <FaSearch />
-                <input type="text" placeholder="질문 검색하기" style={{ border: 'none', marginLeft: '10px',backgroundColor:'#F5F5F5' }} />
+                <input type="text" placeholder="질문 검색하기" style={{ border: 'none', marginLeft: '10px',backgroundColor:'#F5F5F5' }}
+                       value={searchTerm}
+                       onChange={handleSearch}
+                       onKeyUp={handleKeyUp}
+                />
             </div>
 
                 {/* 테이블 컨테이너 */}
